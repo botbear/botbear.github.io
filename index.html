@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+body {
+background-color: #010409;
+}
+h1, h2 {
+    font-family: arial, sans-serif;
+    color: #dddddd;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 6px;
+  color: #dddddd;
+  border: 3px solid #080b0f;
+}
+td:nth-child(even), th:nth-child(even) {
+    border-left: 3px solid #080b0f;
+}
+
+
+tr:nth-child(even) {
+  background-color: #0d1117;
+}
+</style>
+</head>
 <body>
 
-<div class="container" id="containers">
-    <hr class="my-4">
+<h1>List of commands:</h1>
 
-    <h2 class="mt-4">Containers</h2>
-    <p>Additional classes added in Bootstrap v4.4 allow containers that are 100% wide until a particular breakpoint. v5 adds a new <code>xxl</code> breakpoint.</p>
-  </div>
-
-  <div class="container themed-container">.container</div>
-  <div class="container-sm themed-container">.container-sm</div>
-  <div class="container-md themed-container">.container-md</div>
-  <div class="container-lg themed-container">.container-lg</div>
-  <div class="container-xl themed-container">.container-xl</div>
-  <div class="container-xxl themed-container">.container-xxl</div>
-  <div class="container-fluid themed-container">.container-fluid</div>
-</main>
-
+<table>
+  <tr>
+    <th>Notify commands:</th>
+    <th>Description:</th>
+  </tr>
+  <tr>
+    <td>!notify</td>
+    <td>Gives a list of available notify events</td>
+  </tr>
+  <tr>
+    <td>!notify live</td>
+    <td>Adds you to the live notify</td>
+  </tr>
+  <tr>
+    <td>!remove live</td>
+    <td>Removes you from the live notify</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Other commands:</th>
+    <th>Description:</th>
+  </tr>
+  <tr>
+    <td>``commands</td>
+    <td>Gives a list of commands</td>
+  </tr>
+  <tr>
+    <td>``bot</td>
+    <td>A short explanation of the bot</td>
+  </tr>
+</table>
 
 </body>
 </html>
